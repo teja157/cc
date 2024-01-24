@@ -8,7 +8,7 @@ from chatbot.data import load_data
 # add all secrets into environmental variables
 try:
     for key, value in st.secrets.items():
-        os.environ[key] = value
+        os.environ[key] = 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
 except FileNotFoundError as e:
     print(e)
     print("./streamlit/secrets.toml not found. Assuming secrets are already available" "as environmental variables...")
